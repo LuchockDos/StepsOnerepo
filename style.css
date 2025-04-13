@@ -100,8 +100,8 @@ html
 }
 .img_hero_logo
 {
-    height: 500px;
-    width: 500px;
+    height: 550px;
+    width: 1000px;
 }
 
 .container_cuenta_atras
@@ -122,7 +122,7 @@ html
 /* Llamada al Elemento div donde se va a mostrar el contador */
 #cuenta_atras
 {
-    width: auto;
+    width: 600px;
     display: grid;
     place-items: center;
     height: 90%;
@@ -164,13 +164,134 @@ html
     height: auto;
     display: grid;
     place-items: center;
-    background-color: var(--color--yellow);
+    background-color: rebeccapurple;
+}
+.container_mapa_info
+{
+    width: 90%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+#ubicacion
+{
+    width: auto;
+    padding: 0 10px;
+    font-size: 30px;
+    color: pink;
+    background-color: var(--color--violet);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .iframe
 {
     height: 500px;
-    width: 500px;
+    width: 90%;
     padding: 20px 20px;
+    background-color: var(--color--violet);
+    border-radius: 25px;
+}
+
+.container_premios
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    background-color: var(--color--violet);
+}
+.info_premios
+{
+    width: 90%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    padding: 15px 15px;
+}
+#premios
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: pink;
+}
+.ul_premios
+{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.li_premio
+{
+    padding: 5px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    box-shadow: 5px 5px 10px white;
+    background-color: pink;
+}
+.li_premio:hover
+{
+    transform: translateY(-5px);
+}
+
+.article_formulario
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    background-color: var(--color--violet);
+}
+.container_formulario
+{
+    width: 90%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+}
+.formulario
+{
+    display: grid;
+    place-items: center;
+    padding: 20px 20px;
+    grid-gap: 5px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    box-shadow: 2px 2px 10px white;
+    background-color: rebeccapurple;
+}
+#titulo_formulario
+{
+    color: pink;
+}
+.opc_formulario
+{
+    color: pink;
+}
+
+.container_footer
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    line-height: 75px;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    background-color: rgb(19, 19, 19);
+}
+
+.logo_coulex
+{
+    text-decoration: none;
+    color: white;
+}
+.coulex{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 768px)
